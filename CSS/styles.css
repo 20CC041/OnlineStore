@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+   /* flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 15%;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+}
+body {
+    background: url('/assets/1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #f71880;
+    border: 1px solid #f5099a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #f80657;
+}
